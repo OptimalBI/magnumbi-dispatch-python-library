@@ -4,7 +4,7 @@ import requests
 from requests.packages.urllib3.util import Retry
 from requests.adapters import HTTPAdapter
 from requests import Session, exceptions
-from magnumbi_depot.Job import Job
+from .Job import Job
 from string import Template
 
 # URL Templates
