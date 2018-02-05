@@ -8,3 +8,6 @@ class Job:
         self.data = data
         self.start_datetime = start_datetime
         pass
+
+    def __str__(self):
+        return "job_id={},data={}".format(self.job_id, self.data);
