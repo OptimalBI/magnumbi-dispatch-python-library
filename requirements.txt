@@ -1,5 +1,5 @@
 futures==3.0.5
 python-dateutil==2.5.3
 simplejson>=3.8
-requests==2.18.4
-urllib3==1.22
+requests>=2.20.0
+urllib3>=1.23
